@@ -1,9 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect} from 'react';
 import './App.css';
 import Custom from './custom';
 import Age from "./age";
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);  
+
+  useEffect(() => {
+    document.title = `Count: ${count}`;
+  }, [count]);
+
 
   const increment = () => {
     setCount(count + 1);
