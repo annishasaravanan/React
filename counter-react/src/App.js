@@ -3,6 +3,7 @@ import './App.css';
 import Custom from './custom';
 import Age from "./age";
 import Toggle from "./toggle"
+import Typing from "./typingtracker";
 
 function App() {
   const [count, setCount] = useState(0);  
@@ -37,6 +38,7 @@ function App() {
         <Custom />
         <Age/>
         <Toggle/>
+        <Typing/>
       </div>
     </div>
   );
