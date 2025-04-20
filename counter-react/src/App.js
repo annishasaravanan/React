@@ -2,6 +2,8 @@ import React, { useState , useEffect} from 'react';
 import './App.css';
 import Custom from './custom';
 import Age from "./age";
+import Toggle from "./toggle"
+
 function App() {
   const [count, setCount] = useState(0);  
 
@@ -34,6 +36,7 @@ function App() {
         </div>
         <Custom />
         <Age/>
+        <Toggle/>
       </div>
     </div>
   );
