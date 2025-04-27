@@ -4,6 +4,7 @@ import Custom from './custom';
 import Age from "./age";
 import Toggle from "./toggle"
 import Typing from "./typingtracker";
+import LiveClock from './live';
 
 function App() {
   const [count, setCount] = useState(0);  
@@ -39,6 +40,7 @@ function App() {
         <Age/>
         <Toggle/>
         <Typing/>
+        <LiveClock/>
       </div>
     </div>
   );
