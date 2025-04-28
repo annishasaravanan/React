@@ -5,6 +5,7 @@ import Age from "./age";
 import Toggle from "./toggle"
 import Typing from "./typingtracker";
 import LiveClock from './live';
+import Windows from  './windows';
 
 function App() {
   const [count, setCount] = useState(0);  
@@ -41,6 +42,10 @@ function App() {
         <Toggle/>
         <Typing/>
         <LiveClock/>
+        <Windows/>
+        <div className='footer'>
+          <p>Made up</p>
+        </div>
       </div>
     </div>
   );
