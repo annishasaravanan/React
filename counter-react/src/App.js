@@ -6,7 +6,7 @@ import Toggle from "./toggle"
 import Typing from "./typingtracker";
 import LiveClock from './live';
 import Windows from  './windows';
-
+import Name from "./name";
 function App() {
   const [count, setCount] = useState(0);  
 
@@ -43,9 +43,7 @@ function App() {
         <Typing/>
         <LiveClock/>
         <Windows/>
-        <div className='footer'>
-          <p>Made up</p>
-        </div>
+        <Name/>
       </div>
     </div>
   );
