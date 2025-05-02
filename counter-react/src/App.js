@@ -7,6 +7,7 @@ import Typing from "./typingtracker";
 import LiveClock from './live';
 import Windows from  './windows';
 import Name from "./name";
+import Demo from "./demo1";
 function App() {
   const [count, setCount] = useState(0);  
 
@@ -44,6 +45,7 @@ function App() {
         <LiveClock/>
         <Windows/>
         <Name/>
+        <Demo/>
       </div>
     </div>
   );
