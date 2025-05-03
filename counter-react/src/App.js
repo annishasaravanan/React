@@ -8,6 +8,7 @@ import LiveClock from './live';
 import Windows from  './windows';
 import Name from "./name";
 import Demo from "./demo1";
+import Emoji from './emoji';
 function App() {
   const [count, setCount] = useState(0);  
 
@@ -46,6 +47,7 @@ function App() {
         <Windows/>
         <Name/>
         <Demo/>
+        <Emoji/>
       </div>
     </div>
   );
