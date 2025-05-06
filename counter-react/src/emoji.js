@@ -13,7 +13,7 @@ function MoodSelector() {
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h2>Select Your Mood</h2>
-      {Object.keys(moods).map((emoji) => (
+      {Object.keys(moods).map((emoji) => (//emoji is an object 
         <button
           key={emoji}
           onClick={() => setMood(emoji)}
@@ -26,8 +26,8 @@ function MoodSelector() {
         {mood ? (
           <h3>You're feeling {moods[mood]} {mood}</h3>
         ) : (
-          <h3>No mood selected</h3>
-        )}
+          <h3>No mood selected</h3> //Conditionally renders message based on mood
+        )}	
         <button onClick={() => setMood('')}>Clear Mood</button>
       </div>
     </div>

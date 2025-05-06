@@ -17,7 +17,7 @@ function App() {
   }, [count]);
 
 
-  const increment = () => {
+ const increment = () => {
     setCount(count + 1);
   };
 
