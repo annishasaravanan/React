@@ -9,13 +9,15 @@ import Windows from  './windows';
 import Name from "./name";
 import Demo from "./demo1";
 import Emoji from './emoji';
+import Timer from './timer';
+import Details from './properties/details';
+
 function App() {
   const [count, setCount] = useState(0);  
 
   useEffect(() => {
     document.title = `Count: ${count}`;
   }, [count]);
-
 
  const increment = () => {
     setCount(count + 1);
@@ -29,6 +31,7 @@ function App() {
     setCount(0);
   };
 
+  
   return (
     <div className="App">
       <div className="counter-container">
@@ -48,6 +51,8 @@ function App() {
         <Name/>
         <Demo/>
         <Emoji/>
+        <Timer/>
+        <Details/>
       </div>
     </div>
   );

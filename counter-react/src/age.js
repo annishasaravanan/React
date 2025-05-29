@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 
 function Age () {
-
     const [age, setAge]= useState(18);
 
     const ChangeAge =()=>{

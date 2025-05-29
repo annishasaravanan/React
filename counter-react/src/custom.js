@@ -8,7 +8,7 @@ const ChangeName =()=>{
     setName("i am bad");
 }
 
-  return (
+return (
     <div className="App">
       <div className="counter-container">
         <h1>Name changer</h1>
