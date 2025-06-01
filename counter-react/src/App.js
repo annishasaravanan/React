@@ -11,6 +11,7 @@ import Demo from "./demo1";
 import Emoji from './emoji';
 import Timer from './timer';
 import Details from './properties/details';
+import Demo1 from './conditional-rendering/demo1'
 
 function App() {
   const [count, setCount] = useState(0);  
@@ -42,6 +43,7 @@ function App() {
           <button onClick={reset} className="counter-button reset">Reset</button>
           <button onClick={increment} className="counter-button">+</button>
         </div>
+         <Demo1/>
         <Custom />
         <Age/>
         <Toggle/>

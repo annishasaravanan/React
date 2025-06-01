@@ -16,7 +16,7 @@ function LiveClock() {
     const hours = String(date.getHours()).padStart(2, '0');
     const minutes = String(date.getMinutes()).padStart(2, '0');// padStart() adds characters at the beginning until it's long enough.
     const seconds = String(date.getSeconds()).padStart(2, '0');
-    return `${hours}:${minutes}:${seconds}`;
+    return `${hours}:${minutes}:${seconds}`;// $ it's cleaner and more readable than using string concatenation.
   };
 
   return (
