@@ -12,6 +12,7 @@ import Emoji from './emoji';
 import Timer from './timer';
 import Details from './properties/details';
 import Demo1 from './conditional-rendering/demo1'
+import Quize from"./quize-app/quize.js";
 
 function App() {
   const [count, setCount] = useState(0);  
@@ -55,6 +56,7 @@ function App() {
         <Emoji/>
         <Timer/>
         <Details/>
+        <Quize/>
       </div>
     </div>
   );
