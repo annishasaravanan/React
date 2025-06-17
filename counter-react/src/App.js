@@ -13,6 +13,10 @@ import Timer from './timer';
 import Details from './properties/details';
 import Demo1 from './conditional-rendering/demo1'
 import Quize from"./quize-app/quize.js";
+import ReactHandle from './handling/reacthandle.js'
+import Prevent from './handling/prevent.js';
+import BubblingExample from './handling/bubbling.js';
+import StopPropagationExample from './handling/propagation.js';
 
 function App() {
   const [count, setCount] = useState(0);  
@@ -44,6 +48,10 @@ function App() {
           <button onClick={reset} className="counter-button reset">Reset</button>
           <button onClick={increment} className="counter-button">+</button>
         </div>
+        <BubblingExample/>
+        <StopPropagationExample/>
+        <Prevent/>
+        <ReactHandle/>
          <Demo1/>
         <Custom />
         <Age/>

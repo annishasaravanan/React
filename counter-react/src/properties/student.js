@@ -8,7 +8,7 @@
 
 import proptypes from 'prop-types';
 
-function Student(props)
+function Student(props)//child component 
 {
         return <>
          
