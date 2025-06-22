@@ -17,6 +17,10 @@ import ReactHandle from './handling/reacthandle.js'
 import Prevent from './handling/prevent.js';
 import BubblingExample from './handling/bubbling.js';
 import StopPropagationExample from './handling/propagation.js';
+import Greeting from './handling/inlinecondition.js';
+import UserList from './handling/key.js'
+import ControleComponent from './control/controlecomponent.js';
+import UseRefExample from './control/useref.js';
 
 function App() {
   const [count, setCount] = useState(0);  
@@ -48,6 +52,9 @@ function App() {
           <button onClick={reset} className="counter-button reset">Reset</button>
           <button onClick={increment} className="counter-button">+</button>
         </div>
+        <UseRefExample/>
+        <UserList/>
+        <Greeting/>
         <BubblingExample/>
         <StopPropagationExample/>
         <Prevent/>
@@ -65,6 +72,7 @@ function App() {
         <Timer/>
         <Details/>
         <Quize/>
+        <ControleComponent/>
       </div>
     </div>
   );
