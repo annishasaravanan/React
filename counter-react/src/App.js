@@ -21,6 +21,7 @@ import Greeting from './handling/inlinecondition.js';
 import UserList from './handling/key.js'
 import ControleComponent from './control/controlecomponent.js';
 import UseRefExample from './control/useref.js';
+import ClickCircleGame from './mini/Click the Circle.js'
 
 function App() {
   const [count, setCount] = useState(0);  
@@ -52,6 +53,7 @@ function App() {
           <button onClick={reset} className="counter-button reset">Reset</button>
           <button onClick={increment} className="counter-button">+</button>
         </div>
+        <ClickCircleGame/>
         <UseRefExample/>
         <UserList/>
         <Greeting/>
