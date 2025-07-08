@@ -21,7 +21,8 @@ import Greeting from './handling/inlinecondition.js';
 import UserList from './handling/key.js'
 import ControleComponent from './control/controlecomponent.js';
 import UseRefExample from './control/useref.js';
-import ClickCircleGame from './mini/Click the Circle.js'
+import ClickCircleGame from './mini/Click the Circle.js';
+import SquidGameMovieTask from './mini/squidgame.js';
 
 function App() {
   const [count, setCount] = useState(0);  
@@ -75,6 +76,7 @@ function App() {
         <Details/>
         <Quize/>
         <ControleComponent/>
+        <SquidGameMovieTask/>
       </div>
     </div>
   );
