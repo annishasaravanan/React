@@ -2,6 +2,7 @@
 import React from "react";
 import { useState,useEffect } from "react";
 
+
 const players=[
   "Player 001 (Oh Il-nam)",
   "Player 067 (Kang Sae-byeok)",
