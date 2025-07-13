@@ -19,9 +19,9 @@ function SquidGameMovieTask() {
   useEffect(() => {
     if (showResult) {
       const timeout = setTimeout(() => {
-        const random = Math.random() < 0.5 ? "❌ Eliminated" : "✅ Survived";
+        const random = Math.random() < 0.5 ? "Eliminated" : "Survived";
         setFate(random);
-      }, 1500); // suspense delay
+      }, 1500); 
 
       return () => clearTimeout(timeout);
     }

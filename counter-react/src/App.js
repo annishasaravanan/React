@@ -23,6 +23,7 @@ import ControleComponent from './control/controlecomponent.js';
 import UseRefExample from './control/useref.js';
 import ClickCircleGame from './mini/Click the Circle.js';
 import SquidGameMovieTask from './mini/squidgame.js';
+import DontLaughChallenge from "./mini/cargame.js";
 
 function App() {
   const [count, setCount] = useState(0);  
@@ -77,6 +78,7 @@ function App() {
         <Quize/>
         <ControleComponent/>
         <SquidGameMovieTask/>
+        <DontLaughChallenge/>
       </div>
     </div>
   );
