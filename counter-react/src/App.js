@@ -24,6 +24,7 @@ import UseRefExample from './control/useref.js';
 import ClickCircleGame from './mini/Click the Circle.js';
 import SquidGameMovieTask from './mini/squidgame.js';
 import DontLaughChallenge from "./mini/cargame.js";
+import NetflixLogo from "./mini/Netflix.js";
 
 function App() {
   const [count, setCount] = useState(0);  
@@ -79,6 +80,7 @@ function App() {
         <ControleComponent/>
         <SquidGameMovieTask/>
         <DontLaughChallenge/>
+        <NetflixLogo/>
       </div>
     </div>
   );
